@@ -7,7 +7,8 @@ public class Main {
         TransportasImpl t = new TransportasImpl();
         AutomobilisImpl a = new AutomobilisImpl();
 
-
+//kokiu tikslu kuriamas tėvo masyvas ir vaiko masyvas, kuris po to regaguojamas pagal tėvo paramertus.
+// Negalima tiesiog nurodyti, kad vaikas iškarto paveldi parametrus juos galima atvaizduoti
         AutomobilisImpl automobilis1 = new AutomobilisImpl("sausumos", true, 1996, "Audi", 2, true);
         AutomobilisImpl automobilis2 = new AutomobilisImpl("oro", true, 2000, "BWM", 2, false);
         AutomobilisImpl automobilis3 = new AutomobilisImpl("vandens", false, 2015, "VW", 5, false);

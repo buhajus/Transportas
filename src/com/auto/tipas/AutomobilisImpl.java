@@ -60,7 +60,7 @@ public class AutomobilisImpl extends TransportasImpl implements Automobilis {
                 //  AutomobilisImpl automobilis = (AutomobilisImpl) auto;
 
                 if (auto.getPagaminimoMetai() % 2 == 0) {
-                    System.out.print("\nAutomobiliai su lyginiais pagaminimo metais:\t");
+                    System.out.print("Automobiliai su lyginiais pagaminimo metais:\t");
                     System.out.println(auto);
                 }
             }
@@ -91,7 +91,7 @@ public class AutomobilisImpl extends TransportasImpl implements Automobilis {
                 AutomobilisImpl automobilis = (AutomobilisImpl) auto;
 
                 if (automobilis.getArVaromasElektra()) {
-                    System.out.println(" \nAutomobilis varomas elektra:");
+                    System.out.print(" \nAutomobilis varomas elektra: \t");
                     System.out.print(auto);
                 }
             }
